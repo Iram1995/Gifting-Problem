@@ -13,11 +13,8 @@ require('php-includes/connect.php');
     <meta name="description" content="">
     <meta name="author" content="">
 
-<<<<<<< HEAD
     <title>Gifting Program Admin Dashboard  - Home</title>
-=======
-    <title>Kindred Collective Admin Dashboard  - Home</title>
->>>>>>> 366804ff5aed7d059aa324a99adf224c51de1243
+
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

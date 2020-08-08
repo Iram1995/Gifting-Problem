@@ -42,11 +42,11 @@ echo '<script>alert("Access Denied");window.location.assign("tree.php");</script
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<<<<<<< HEAD
+
 <title>Gifting Program Visitor Dashboard - Tree</title>
 =======
 <title>Kindred Collective Visitor Dashboard  - Tree</title>
->>>>>>> 366804ff5aed7d059aa324a99adf224c51de1243
+
 <!-- Bootstrap Core CSS -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <!-- MetisMenu CSS -->

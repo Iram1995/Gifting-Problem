@@ -51,11 +51,8 @@ function pin_generate(){
     <meta name="description" content="">
     <meta name="author" content="">
 
-<<<<<<< HEAD
     <title>Gifting Program Admin Dashboard  - View Pin Request</title>
-=======
-    <title>Kindred Collective Admin Dashboard  - View Pin Request</title>
->>>>>>> 366804ff5aed7d059aa324a99adf224c51de1243
+
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

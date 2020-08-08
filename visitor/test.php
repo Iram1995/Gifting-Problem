@@ -14,11 +14,11 @@ $userid = $_SESSION['userid'];
     <meta name="description" content="">
     <meta name="author" content="">
 
-<<<<<<< HEAD
+
     <title>Gifting Program Visitor Dashboard  - Test</title>
 =======
     <title>Kindred Collective Visitor Dashboard  - Test</title>
->>>>>>> 366804ff5aed7d059aa324a99adf224c51de1243
+
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

@@ -7,7 +7,7 @@
       BASIC PAGE INFORMATION
 ============================== -->             
             <!-- PAGE TITLE -->             
-            <title>Your Gifting Problem</title>             
+            <title>Your Gifting Program</title>             
             <!-- ALLOW GOOGLE TO INDEX YOUR PAGE -->             
             <meta name="ROBOTS" content="INDEX, FOLLOW"> 
             <!-- =========================
@@ -287,58 +287,18 @@ function googleTranslateElementInit() {
           
           <!-- LOGIN FORM -->
           <div class="modal-body" id="login">
-             <form class="form-horizontal" role="form" autocomplete="off" data-toggle="validator" method="POST" action="visitor/index.php" novalidate="true">
-             <!--  <form class="form-horizontal" role="form" autocomplete="off" data-toggle="validator" method="POST" novalidate="true">-->
-
-                  <div class="form-group">
-                    
-                      <!-- E-MAIL INPUT -->
-                      <div class="input-group col-xs-12">
-                        
-                         <!-- ICON -->
-                         
-                         
-                         <!-- INPUT -->
-                         <input type="text" class="form-control" name="luser" id="luser" placeholder="Username" required="">
-                      </div>
-                      
-                      <!-- ERROR MESSAGE BOX -->
-                      <div class="help-block with-errors"></div>
-                  </div>
-                  
-                  <div class="form-group">
-                    
-                      <!-- PASSWORD INPUT -->
-                      <div class="input-group col-xs-12">
-                        
-                          <!-- ICON -->
-                  
-                          
-                          <!-- INPUT -->
-                          <input type="password" class="form-control" name="lpass" id="lpass" placeholder="password" required="">
-						  <input name="LoginForm[rememberMe]" id="LoginForm_rememberMe" value="0" type="hidden">
-                      </div>
-                      
-                      <!-- ERROR MESSAGE BOX -->
-                      <div class="help-block with-errors"></div>
-                  </div>
-                  
-                  <div class="input-group col-xs-12">
-                    <input type="hidden" name="login" value="1">
-                      <!-- SUBMIT BUTTON -->
-					  <!---     <button type="submit" class="btn btn-success col-xs-12"  name="yt2" value="Login"  >--->
-           <!--- <input class="btn block btn-success col-xs-12" type="submit" name="yt2" value="Login" />     --->
-		    <button type="submit" name="yt2" class="btn btn-success col-xs-12" style="pointer-events: all; cursor: pointer;" onclick="RedirectToDashBoard(luser,lpass)">
-                                           <!-- ICON -->
-                            <span class="icon_profile"></span>
-                            
-                            <!-- BUTTON TEXT -->
-                            Login                      </button>
-                  </div>
-                  
-                  <!--CHANGE FORM TO PASSWORD REMINDER-->
-                  <p class="other" id="gotoRemind">Forgot your password?</p>
-              </form>
+          <form method="post" action="visitor/login.php">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                                </div>
+                                <!-- Change this to a button or input when using this as a form -->
+                                <button type="submit"  class="btn btn-lg btn-success btn-block">Login</button>
+                            </fieldset>
+                        </form>
           </div>
           
       
@@ -447,7 +407,7 @@ function googleTranslateElementInit() {
                                     <!-- HEADER TEXT -->                                     
                                     <header class="anim-fade-down animated fadeInDown" style="opacity: 1;"> 
                                         <!-- HEADER TITLE -->                                         
-                                        <h1> <!-- SMALL TITLE --> <span class="header-txt-small">Your</span><br> <!-- REGULAR TITLE --> <span class="header-txt-color"> Gifting  </span>  </br> Problem                         </h1> 
+                                        <h1> <!-- SMALL TITLE --> <span class="header-txt-small">Your</span><br> <!-- REGULAR TITLE --> <span class="header-txt-color"> Gifting  </span>  </br> Program                         </h1> 
                                         <!-- SUBTITLE -->                                         
                                         <h3>is finally here!</h3> 
                                     </header>                                     
@@ -485,24 +445,27 @@ function googleTranslateElementInit() {
                               <div class="col-md-6">
                                                        <h3 class="anim-from-right animated fadeInRight" style="opacity: 1;">How It Works</h3>
 													   
-													   <p>Our mission is to provide a home for like-minded people to work together, to practice the Universal Laws of giving and receiving, and to offer an activity where everyone can be happy and successful.</p>
-													   <p>This is a gifting activity with </p>
-													   <p>Complete virtual back office</p>
-													   <p>Checks and balances through online controls ensuring gifts are received</p>
-													   <p>Easy access to members information for communication purposes</p>
-													   <p>Amazing wealth creation potential</p>
-													   <p>The most prolific group of leaders ever assembled in one activity creating unbelievable momentum for all</p>
-													   <p>Level One   $25 Gifts (Everyone Starts here, and will be the only time out of pocket (plus a one time $10 donation) $35 total one time</p>
-													   <p>Level One $25 = $200</p>
-													   <p>Level Two   $100 Gifts = $800</p>
-													   <p>Level Three $500 Gifts = $4,000</p>
-													   <p>Level Four  $1000 Gifts = $8,000</p>
-													   <p>Level Five  $3000 Gifts = $24,000</p>
-													   <p>Everyone starts at the $25 level</p>
-													   <p>Once you enter this $25 level, your participation in Y.E S. Begins!</p>
-													   <p>Every level you will receive gifts from 8 members</p>
-													   <p>You will follow your Inviter through each level, and your Invitees will follow you, making this a real team effort.</p>
-													   <p>Our automated system tracks your movement every step in real time!</p>
+													   <p>Our mission is to support millions of people on the platform.</p>
+													   <p>This is a gifting model that will collect an admin fee of $10 for each user and $100 will go to the person is being gifted on level 1
+by the 8 people on level 4.</p>
+													   <p>We have 3 gifting seeds on the platform $100, $500 and then $2000. The $500 and $2000 platforms will only be available to
+sow and receive payouts on Sundays.</p>
+                             <p>Members can gift in at $100.00 via a payment vehicle, like PayPal, Zelle, etc</p>
+                             <p>
+                             First position Fire<br/>Second position Air<br/>Third position Earth <br/>Fourth position Water
+                             </p>
+													   <p>At Fire position a person sows a seed/gift of $100. After all eight fire positions are filled then the system releases seeds/gifts to
+the water. The person in the Water position rotates out and now the board splits and each Earth position creates two new
+boards.</p>
+													   <p>All Fires move to the Air position but no gifts/seeds are required from Airs or Earths. Fire 1 and
+Air 1 move to the newly split board with Earth 1 which is now water. The Airs move up to Earth positions and the Fires move up
+to Air position.</p>
+<p>Payouts<br/>
+$100 community gifts out at $800<br/>
+$500 community gifts out at $4000<br/>
+$2000 community gifts out at $16,000<br/>
+These are gifts and not commissions using IRS publication 559</p>
+													  
                               </div>
                     
                     
@@ -739,7 +702,7 @@ function googleTranslateElementInit() {
                 <footer> 
                     <div class="container anim-fade-up animated fadeInUp" style="opacity: 1;"> 
                         <!-- CREDITS - HELP US SPREAD THE LOVE :-) -->                         
-                        <div class="col-sm-3 col-xs-12 hidden-xs">Your Gifting Problem
+                        <div class="col-sm-3 col-xs-12 hidden-xs">Your Gifting Program
                             <!-- <br><span id="siteseal"><script async="" type="text/javascript" src="./Your Eternal Seed_files/getSeal"> -->
 							<!-- </script><img style="cursor:pointer;cursor:hand" src="./Your Eternal Seed_files/siteseal_gd_3_h_l_m.gif" onclick="verifySeal();" alt="SSL site seal - click to verify"></span> -->
                          </div>                         
@@ -775,7 +738,7 @@ function googleTranslateElementInit() {
             <!-- MODAL SUBTITLE -->
             <h6>&nbsp;</h6>
           </div>
-<p>Your Gifting Problem  (YES) is a private association of consenting individuals 18 years of age and above who willingly and knowingly have come together for charitable purposes.</p>
+<p>Your Gifting Program  (YES) is a private association of consenting individuals 18 years of age and above who willingly and knowingly have come together for charitable purposes.</p>
         <p>Participants have chosen to exercise their right to freely give to others who have joined with the same purpose and understanding. Access to the&nbsp;<strong>YES </strong>website and participation in the activity are by DIRECT, PERSONAL INVITATION ONLY. If you have been invited to view the http://gifting.blackbeautyteam.com/, you are a special person indeed and have been given a tremendous gift, perhaps far greater than you can imagine.</p>
         <p>Please know that&nbsp;<strong>YES&nbsp;</strong>is not an investment club, not a business, not MLM, not a company or corporation, not a commercial enterprise of any kind whatsoever, nor do its activities include the solicitation of anything.&nbsp; There are no investments here, no paychecks, no products or services to sell, no seminars to attend, no tapes or manuals to buy, and no one MAKES or EARNS any money.</p>
         <p>There are no profit making benefits of any kind associated with this activity.&nbsp; No benefit or return of any nature is expressed or implied and no promises or guarantees of any such return are permitted to be made by any participant of this activity.</p>

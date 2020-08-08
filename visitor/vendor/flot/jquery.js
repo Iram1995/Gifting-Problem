@@ -1316,7 +1316,7 @@ jQuery.support = (function() {
 		// Tests for enctype support on a form (#6743)
 		enctype: !!document.createElement("form").enctype,
 
-		// Makes sure cloning an html5 element does not cause problems
+		// Makes sure cloning an html5 element does not cause Programs
 		// Where outerHTML is undefined, this still works
 		html5Clone: document.createElement("nav").cloneNode( true ).outerHTML !== "<:nav></:nav>",
 
@@ -2361,7 +2361,7 @@ jQuery.extend({
 	attrHooks: {
 		type: {
 			set: function( elem, value ) {
-				// We can't allow the type property to be changed (since it causes problems in IE)
+				// We can't allow the type property to be changed (since it causes Programs in IE)
 				if ( rtype.test( elem.nodeName ) && elem.parentNode ) {
 					jQuery.error( "type property can't be changed" );
 				} else if ( !jQuery.support.radioValue && value === "radio" && jQuery.nodeName(elem, "input") ) {
@@ -6872,7 +6872,7 @@ if ( window.getComputedStyle ) {
 		// If we're not dealing with a regular pixel number
 		// but a number that has a weird ending, we need to convert it to pixels
 		// but not position css attributes, as those are proportional to the parent element instead
-		// and we can't measure the parent instead because it might trigger a "stacking dolls" problem
+		// and we can't measure the parent instead because it might trigger a "stacking dolls" Program
 		if ( rnumnonpx.test( ret ) && !rposition.test( name ) ) {
 
 			// Remember the original values

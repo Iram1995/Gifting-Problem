@@ -38,11 +38,9 @@ if(isset($_GET['pin_request'])){
     <meta name="description" content="">
     <meta name="author" content="">
 
-<<<<<<< HEAD
+
     <title>Gifting Program Visitor Dashboard - Pin Request</title>
-=======
-    <title>Kindred Collective Visitor Dashboard  - Pin Request</title>
->>>>>>> 366804ff5aed7d059aa324a99adf224c51de1243
+
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -96,6 +94,13 @@ if(isset($_GET['pin_request'])){
                             </div>
                         </form>
                     </div>
+
+                    <div class="col-lg-8">
+                    
+<img src="../img/bloom.jpeg"/>
+
+               
+</div>
                 </div>
                 <!-- <div class="row">
                 	<div class="col-lg-6">

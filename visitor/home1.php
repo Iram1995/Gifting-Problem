@@ -41,62 +41,54 @@ $userid = $_SESSION['userid'];
         <?php include('php-includes/menu.php'); ?>
 
         <!-- Page Content -->
-        <div id="page-wrapper" style="color:white;">
+        <div id="page-wrapper" style="background-color: #171d37;color:white;">
             <div class="container-fluid">
 
                 <div class="row">
                    <div style="padding: 2%;" class="col-lg-3">
-                   <div class="row" style="padding: 15%;background-color: #858688;">
+                   <div class="row" style="padding: 15%;background-color: #242947;">
                <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
     border: 2px solid #4a3343;
+    color: #da5930;
     font-size: large;
     border-radius: 48%;
     padding: 4%;">$</i><span><span> Level 1 Bonus</span>
     <br/>
      <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
     border: 2px solid #4a3343;
+    color: #da5930;
     font-size: xx-large;
     border-radius: 48%;
     padding: 4%;visibility: hidden;">$</i><span><span>0 $</span>
               
             </div>
-            <div class="row" style="padding: 15%;background-color: #858688;">
+            <div class="row" style="padding: 15%;background-color: #242947;">
                 <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
     border: 2px solid #4a3343;
+    color: #da5930;
     font-size: large;
     border-radius: 48%;
     padding: 4%;">$</i><span><span> Level 2 Bonus
      <br/>
      <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
     border: 2px solid #4a3343;
+    color: #da5930;
     font-size: xx-large;
     border-radius: 48%;
     padding: 4%;visibility: hidden;">$</i><span><span>0 $</span>
                                 
             </div>                
-            <div class="row" style="padding: 15%;background-color: #858688;">
+            <div class="row" style="padding: 15%;background-color: #242947;">
                 <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
     border: 2px solid #4a3343;
+    color: #da5930;
     font-size: large;
     border-radius: 48%;
     padding: 4%;">$</i><span><span> Level 3 Bonus
      <br/>
      <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
     border: 2px solid #4a3343;
-    font-size: xx-large;
-    border-radius: 48%;
-    padding: 4%;visibility: hidden;">$</i><span><span>0 $</span>
-                                  
-            </div>
-            <div class="row" style="padding: 15%;background-color: #858688;">
-                <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
-    border: 2px solid #4a3343;
-    font-size: large;
-    border-radius: 48%;
-    padding: 4%;">$</i><span><span> Level 4 Bonus
-     <br/>
-     <span> <i class="fas fa-dollar-sign" style="background-color: #da593536;
-    border: 2px solid #4a3343;
+    color: #da5930;
     font-size: xx-large;
     border-radius: 48%;
     padding: 4%;visibility: hidden;">$</i><span><span>0 $</span>
@@ -108,70 +100,69 @@ $userid = $_SESSION['userid'];
 </div>
 <div style="padding: 2%;" class="col-lg-9">
                     <!-- /.col-lg-12 -->
-                    <div class="row" style="background-color: #858688;">
+                    <div class="row" style="background-color: #242947;">
                         <div class="col-lg-3" style="padding: 3%;">
                         <h5>Current Balance</h5>
                         <h5>$ 0</h5>
-                        <h5>Account For <span style="color:#f4b77e;">Website</span></h5>
+                        <h5>Account For <span style="color:#9d734c">Website</span></h5>
                         </div>
                         <div class="col-lg-3" style="padding: 3%;">
                         <h5>Level 1 Bonus</h5>
                         <h5>$ 0</h5>
-                        <h5>Bonus From <span style="color:#f4b77e;">Website</span></h5>
+                        <h5>Bonus From <span style="color:#9d734c">Website</span></h5>
                         </div>
                         <div class="col-lg-3" style="padding: 3%;">
                         <h5>Level 2 Bonus</h5>
                         <h5>$ 0</h5>
-                        <h5>Bonus From <span style="color:#f4b77e;">Website</span></h5>
+                        <h5>Bonus From <span style="color:#9d734c">Website</span></h5>
                         </div>
                         <div class="col-lg-3" style="padding: 3%;">
                         <h5>Level 3 Bonus</h5>
                         <h5>$ 0</h5>
-                        <h5>Bonus From <span style="color:#f4b77e;">Website</span></h5>
+                        <h5>Bonus From <span style="color:#9d734c">Website</span></h5>
                         </div>
-                       
                 </div>
                 <br/>
 
                 <div class="row" >
-                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
+                        <div class="col-lg-3" style="padding: 3%;background-color: #242947;">
                         <h5>Membership Type </h5>
                         <h3>Plan B</h3>
                         </div>
-                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
+                        <div class="col-lg-3" style="padding: 3%;background-color: #242947;">
                         <h5>Member Since</h5>
                         <h3>---</h3>
                         </div>
-                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
+                        <div class="col-lg-3" style="padding: 3%;background-color: #242947;">
                         <h5>Direct Referrals</h5>
                         <h3>0</h3>
                         </div>
-                        <div class="col-lg-3" style="padding: 3%;background-color: #858688;">
+                        <div class="col-lg-3" style="padding: 3%;background-color: #242947;">
                         <h5>Total Referrals</h5>
                         <h3>0</h3>
                         </div>
                 </div>
                 <br/>
-                <div class="row" style="background-color: #858688;">
+                <div class="row" style="background-color: #242947;">
                         <div class="col-lg-4" style="padding: 3%;">
                         <h5>Cash Out</h5>
                         <h5>$ 0.00</h5>
-                        <h5 style="color:#c7cbff"> <span style="color:#f4b77e;">Pending: </span>Website</h5>
+                        <h5 style="color:#71738c"> <span style="color:#9d734c">Pending: </span>Website</h5>
                         </div>
                         <div class="col-lg-4" style="padding: 3%;">
                         <h5>Cash Out</h5>
                         <h5>$ 0.00</h5>
-                        <h5 style="color:#c7cbff"> <span style="color:#68d9af">Approval: </span>Website</h5>
+                        <h5 style="color:#71738c"> <span style="color:#138c5f">Approval: </span>Website</h5>
                         </div>
                         <div class="col-lg-4" style="padding: 3%;">
                         <h5>Cash Out</h5>
                         <h5>$ 0.00</h5>
-                        <h5 style="color:#c7cbff"> <span style="color:#8f4053">Approval: </span>Website</h5>
+                        <h5 style="color:#71738c"> <span style="color:#7e283c">Approval: </span>Website</h5>
                         </div>
                        
                 </div>
                 <br/>
-                <div class="row" style="background-color: #858688;">
+                <div class="row" style="background-color: #242947;">
                         <div class="col-lg-6" style="padding: 3%;">
                         
                         <table class="table">

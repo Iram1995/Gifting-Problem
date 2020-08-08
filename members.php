@@ -14,7 +14,7 @@
       BASIC PAGE INFORMATION
 ============================== -->
     <!-- PAGE TITLE -->
-      <title>Your Gifting Problem</title>   
+      <title>Your Gifting Program</title>   
     
   
      
@@ -248,7 +248,7 @@ function googleTranslateElementInit() {
                 <footer> 
                     <div class="container anim-fade-up"> 
                         <!-- CREDITS - HELP US SPREAD THE LOVE :-) -->                         
-                        <div class="col-sm-3 col-xs-12 hidden-xs">Your Gifting Problem
+                        <div class="col-sm-3 col-xs-12 hidden-xs">Your Gifting Program
                             <br>
                         </div>                         
                         <!-- SOCIAL MEDIA -->                         

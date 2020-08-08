@@ -13,12 +13,8 @@ require('php-includes/connect.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
-<<<<<<< HEAD
     <title>Gifting Program Admin Dashboard  - Income History</title>
-=======
-    <title>Kindred Collective Admin Dashboard  - Income History</title>
->>>>>>> 366804ff5aed7d059aa324a99adf224c51de1243
+
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

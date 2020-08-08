@@ -11,7 +11,7 @@
       BASIC PAGE INFORMATION
 ============================== -->
     <!-- PAGE TITLE -->
-      <title>Your Gifting Problem</title>
+      <title>Your Gifting Program</title>
 
 <!-- =========================
       FAV & TOUCH ICONS  

@@ -27,11 +27,8 @@ if(isset($_GET['userid'])){
     <meta name="description" content="">
     <meta name="author" content="">
 
-<<<<<<< HEAD
     <title>Gifting Program Admin Dashboard  - Income</title>
-=======
-    <title>Kindred Collective Admin Dashboard  - Income</title>
->>>>>>> 366804ff5aed7d059aa324a99adf224c51de1243
+
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
